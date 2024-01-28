@@ -148,7 +148,7 @@ a:hover{
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 40px;
-
+    color: #173b6c;
 }
 .head ::after{
     content: "";
@@ -235,4 +235,104 @@ a:hover{
     margin-left: 3%;
     margin-right: 50px;
     font-size: 24px;
+}
+.resume_head_para{
+    margin-left: 3%;
+    margin-right: 50px;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.resume_flex{
+    display: flex;
+    /* justify-content: space-between;  */
+}
+.resume_block1{
+    padding: 12px;
+    display: block;
+    
+}
+.resume_block2{
+    padding: 12px;
+    display: block;
+    
+}
+.resume_head11{
+    margin-left: 80px;
+    font-size: 26px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.resume_head21{
+    margin-left: 80px;
+    font-size: 26px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.resume_item1{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.resume_item1_detail{
+    font-family: sans-serif;
+    color: #272829;
+    margin-top:10px ;
+    font-size: 16px;
+}
+.block1ul{
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.block1points{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #272829;
+}
+.resume_head111{
+    margin-left: 80px;
+    font-size: 26px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.resume_item2{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.year_box{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    background-color: #E4EDE9;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.placeaddress{
+    margin-bottom: 8px;
+}
+.placeaddress_below{
+    margin-bottom: 25px;
+}
+.resume_items3{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.intern_para{
+    font-family: sans-serif;
+    color: #272829;
+    margin-top:10px ;
+    font-size: 16px;
+}
+.occupation{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.occupation_para{
+    font-family: sans-serif;
+    color: #272829;
+    margin-top:10px ;
+    font-size: 16px;
 }
