@@ -15,12 +15,11 @@ body {
     /* background-repeat: no-repeat; */
     /* background-position:  center;  */
     /* min-height: 100vh;  */
+    background-color: #eff0e8;
 }
 html, body {
     overflow: hidden;
 }
-
-
 .navbar{
     z-index: 2;
     position: absolute;
@@ -85,60 +84,25 @@ a:hover{
     width: 280px;
     transition: all 0.5s ease;
 }
-.centre-container{
+.index_first{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 120vh;
 }
-.centre-class{
-    text-align: center;
+.contentt{
+    display: flex;
+    margin-left: 90px;
+    z-index: 1;
 }
-.centre-class p{
-    margin: 0;
+.first_item_con{
+    color: #b7bdbd;
+    margin-top: 350px;
+    margin-left: 5px;
+    font-size: 39px;
 }
-.text{
-    position: absolute;
-    top: 50%; 
-    right: 50%;
-    transform: translate(50%,-50%);
-    text-transform: uppercase;
-    font-family: verdana;
-    font-size: 4em;
-    font-weight: 700;
-    color: #fffb83;
-    text-shadow: 1px 1px 1px #919191,
-        1px 2px 1px #919191,
-        1px 3px 1px #919191,
-        1px 4px 1px #919191,
-        1px 5px 1px #919191,
-        1px 6px 1px #919191,
-        1px 7px 1px #919191,
-        1px 8px 1px #919191,
-        1px 9px 1px #919191,
-        1px 10px 1px #919191,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
+.contentt_item{
+    background-color: #eff0e8;
+    font-weight: bold;
 }
-.text2{
-    margin: 0;
-    font-size:2rem;
-    font-family: 'Kanit', sans-serif;
-    color: #40bfea;
-    /* font:; */
-}
-/* .changing-text{
-    animation: changeText 0.5s linear  infinite ;
-}
-@keyframes changeText {
-    0%, 20% { content: "Developer"; }
-    25%, 45% { content: "Student"; }
-    50%, 70% { content: "Designer"; }
-    75%, 95% { content: "Programmer"; }
-    100% { content: "Engineer"; }
-} */
+
 .content{
     margin-left: 100px;
     z-index: 1;
@@ -336,3 +300,128 @@ a:hover{
     margin-top:10px ;
     font-size: 16px;
 }
+.portfoloio_para{
+    margin-left: 3%;
+    margin-right: 50px;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.centre_preoject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.project{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 21px;
+    color: #272829;
+}
+.photos{
+    display: flex;
+}
+.photos1{
+    display: block;
+}
+.photos2{
+    display: block;
+}
+.semester{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label{
+    display: inline;
+    margin: 15px;
+}
+
+select{
+    font-size: 16px;
+}
+.calculator{
+    display: block;
+    margin-left: 350px;
+}
+.pingpong{
+    margin-left: 350px;
+    margin-top: 15px;
+}
+.webscraper{
+    margin-left: 450px;
+    display: block;
+}
+.rock_ppr_scr{
+    margin-left: 450px;
+    margin-top: 35px;
+}
+.photo1_desc{
+    margin-left: 350px;
+    margin-top: 5px;
+}
+.photo2_desc{
+    margin-left: 350px;
+    margin-top: 5px;
+}
+.photo3_desc{
+    margin-left: 450px;
+    margin-top: 5px;
+}
+.photo4_desc{
+    margin-left: 450px;
+    margin-top: 5px;
+}
+.form_info{
+    margin-top: 40px;
+    margin-left: 400px;
+}
+.form_info input[type="text"],
+.form_info textarea,
+.form_info input[type="number"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+.button_submit {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.button_submit:hover {
+    background-color: darkblue;
+}
+.form_info_first{
+    margin-bottom: 5px;
+}
+.elemets {
+    font-size: 20px;
+    padding: 5px; 
+  }
+table, th, td {
+    border-collapse: separate;
+    border:1px solid black;
+}
+.marks{
+    margin-top: 100px;
+    margin-left: 400px
+ }
+ .GPA{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 320px;
+    margin-top: 20px;
+ }
